@@ -1,0 +1,148 @@
+*{
+    margin:0px;
+    padding:0px;
+}
+nav ul{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height:50px;
+
+}
+body{
+    background-image: url("background.jpg");
+    background-attachment: scroll;
+    background-position: center;
+    height: 500px;
+    background-repeat: no-repeat;
+    
+}
+nav ul li:nth-of-type(1){
+    position:absolute;
+    left:70px;
+}
+.logo{
+    color: orangered;
+    font-size: 40px;
+}
+nav ul li a{
+    text-decoration: none;
+    color:white;
+    padding:30px;
+}
+nav ul li{
+    list-style-type: none;
+}
+.nav_search{
+    width:150px;
+    border:0px;
+}
+::placeholder{
+    color:white;
+}
+section{
+    display:flex;
+    flex-direction: row;
+    margin: 10px ;
+    justify-content: space-between;
+}
+section div:nth-of-type(1){
+    width: 650px;
+    height: 400px;
+    position:relative;
+    padding :10px;
+    left:55px;
+    letter-spacing: 1.2px;
+    margin-top: 30px;
+    
+}
+section div:nth-of-type(2){
+    width:280px;
+    height: 430px;
+    background-color: black;
+    padding:10px;
+    position:relative;
+    right:45px;
+    border-radius: 10px;;
+    margin-top: 50px;;
+    
+}
+h2{
+    font-size:45px;
+    color:white;
+}
+h1{
+    font-size:60px;
+    color:orangered;
+}
+p{
+    font-size: large;
+    color:white;
+    line-height: 1.5;
+}
+button{
+    width:100px;
+    height: 40px;
+    margin-top :20px;
+    background-color:orangered;
+    border-radius: 10px;
+    color:black;
+}
+h3{
+    border:2px solid red;
+    background-color: rgb(242, 242, 242);
+    color:orangered;
+    text-align: center;
+    margin:auto;
+    width:200px;
+    height:15px;
+    padding:15px;
+    border-radius: 10px;;
+}
+input{
+    margin:10px;
+    padding:10px;
+    background-color: black;
+    display:block;
+}
+.login{
+    text-align: center;
+    margin:auto;
+    width:250px;
+    height:40px;
+}
+input[type="email"]{
+    color:white;
+    padding:10px;
+    width:200px;
+    margin:20px;
+    border-bottom:1px solid brown;
+    border-right:none;
+    border-top:none;
+    border-left:none;
+}
+input[type="password"]{
+    color:white;
+    padding: 10px;
+    width:200px;
+    margin:20px;
+    border-bottom:1px solid brown;
+    border-right:none;
+    border-top:none;
+    border-left:none;
+}
+span{
+    color:orangered;
+}
+.span1{
+    text-align: center;
+    margin-top: 10px;
+}
+.span2{
+    text-align: center;
+}
+.icons a i{
+    color:white;
+    font-size: 25px;
+    margin:5px;
+}
